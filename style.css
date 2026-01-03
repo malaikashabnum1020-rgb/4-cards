@@ -20,7 +20,7 @@ body{
     height: auto;
     background-color: rgb(248, 248, 255);
 }
-.cards-cards{
+.cards-cards1{
     display:flex ;
     align-items:center ;
     justify-content: space-evenly;
@@ -31,7 +31,7 @@ body{
     gap: 20px;
     padding: 50px;;
 }
-.cards{
+.cards1{
     width: 22.5%;
     height:auto;
     background-color: rgb(29, 160, 138);
@@ -39,16 +39,16 @@ body{
     border-radius: 10px;
     text-align: center;
 }
-.cards img{
+.cards1 img{
     width: 50px;
     
 }
-.cards p{
+.cards1 p{
     padding: 10px 0; 
     font-size: 15px;
     text-align: center;
 }
-.cards img:hover{
+.cards1 img:hover{
    transform: translate(0px, -10px);
    transition-duration: 0.4s;
     
@@ -56,7 +56,7 @@ body{
 h1{
     font-size:22px;
 }
-.cards button{
+.cards1 button{
     padding: 10px 30px;
     font-size:15px ;
     border-radius: 10px;
@@ -65,8 +65,56 @@ background-color: rgba(8, 155, 148, 0.164);
     color: black;
     margin: 20px 0;
 }
-.cards button:hover{
+.cards1 button:hover{
     background-color: chocolate;
+}
+
+.card-section {
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    background-color: rgb(247, 255, 252);
+
+}
+
+.cards-cards {
+    width: 100%;
+    height: auto;
+    background-color: rgba(200, 231, 151, 0.671);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards {
+    width: 45%;
+    height: auto;
+    background-color: rgb(245, 252, 253);
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid white;
+
+}
+
+.cards-img img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.cards-cards .cards-btn {
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(14, 13, 13);
+    background-color:white;
+    font-size: 15px;
+    margin: 10px;
+}
+.cards-cards .cards-btn:hover{
+    background-color: rgb(6, 6, 58);
+    color: white;
 }
 @media (max-width:360px){
     body{
